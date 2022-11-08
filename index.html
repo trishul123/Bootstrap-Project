@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Hello</title>
+    <style>
+        .jumbotron{
+            background: radial-gradient(
+                
+            rgba(1, 80, 226, 0.973), 
+            rgb(1, 1, 126)
+            );
+            text-align: center;
+            margin-top: 50px;
+            color: white;    
+        }
+        #content{
+            text-align: center;
+        }
+        #appstoreimg{
+            width: 200px;
+            height: auto;
+        }
+        #footer{
+            background-color: aqua;
+            padding-top: 100px;
+            text-align: center;
+            margin-top: 50px;
+            padding-bottom: 100px;
+        }
+        
+    
+    </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="150">
+    <nav class="navbar navbar-expand-lg bg-light fixed-top" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#jumbotron">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#content">About</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Download My App</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="email" placeholder="Email" aria-label="Email">
+              <input class="form-control me-2" type="password" placeholder="Password" aria-label="Password">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+        <div class="jumbotron" id="jumbotron">
+            <h1 class="display-4">Welcome to our page</h1>
+             <p class="lead">This is a simple hero unit for featured content or information</p>
+             <hr class="my-4">
+             <p>It uses utility classes for typography and spacing to space content out within the large container</p>
+             <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+             </p>
+        </div>  
+        
+        <div class="container" id="content">
+            <h1>Why is this awesome?</h1>
+            <p>This is cool to use</p>
+        </div>
+      
+        <div class="card-deck container">
+            
+              <div class="card">
+                <img src="cardimg.png" class="card-img-top" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="cardimg.png" class="card-img-top" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="cardimg.png" class="card-img-top" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            
+          </div>
+          
+          <div id="footer">
+            <h3>Download the app!</h3>
+            <p>Really, why should I Download this app??</p>
+            <p><a href="#"><img id="appstoreimg" src="appstore.png" alt="img"></a></p>
+          </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
